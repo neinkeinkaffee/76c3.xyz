@@ -1,9 +1,15 @@
 {
-  "subject": "acct:admin@76c3.xyz",
+  "subject": "okta:acct:admin@76c3.xyz",
   "links": [
     {
       "rel": "http://openid.net/specs/connect/1.0/issuer",
-      "href": "https://integrator-8307846-admin.okta.com/.well-known/webfinger"
+      "href": "https://integrator-8307846.okta.com/sso/idps/OKTA?login_hint=admin%4076c3.xyz#",
+      "titles": {
+        "und": "integrator-8307846"
+      },
+      "properties": {
+        "okta:idp:type": "OKTA"
+      }
     }
   ]
 }
